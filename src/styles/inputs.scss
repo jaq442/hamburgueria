@@ -1,0 +1,31 @@
+.form {
+  border: 2px solid var(--gray-1);
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-family: var(--font-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.25rem 0;
+  width: 100%;
+
+  & input {
+    color: var(--gray-3);
+    background-color: #ffffff;
+    height: 3.75rem;
+    width: 100%;
+    padding: 0.9375rem;
+    border-radius: 8px;
+  }
+  input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+  }
+}
+
+
+@media (min-width: 730px) {
+  .form {
+    width: 50%;
+  }
+}

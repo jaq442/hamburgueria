@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  overflow-x: scroll;
+  gap: 25px;
+}
+
+@media (min-width: 730px) {
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow-x:inherit;
+    gap: 20px;
+  }
+
+
+}

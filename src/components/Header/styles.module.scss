@@ -1,0 +1,27 @@
+.logo {
+  background: var(--gray-0);
+}
+
+.cart {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0 0;
+}
+
+@media (min-width: 730px) {
+  .headerBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .form {
+    width: 50%;
+  }
+
+  .cart{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+}

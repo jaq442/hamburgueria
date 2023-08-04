@@ -1,0 +1,31 @@
+.cartList{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 20px;
+
+    button{
+        display: flex;
+        justify-content: flex-start;
+
+        svg {
+            color: #BDBDBD;
+        }
+    }
+
+}
+
+.title{
+    display: flex;
+   
+   h3{
+    margin-left: 10px;
+    color:var(--gray-3)
+   }
+
+    img{
+        max-width: 100px;
+        padding: 20px;
+        background-color: var(--gray-1);
+    }
+}
